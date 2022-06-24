@@ -44,6 +44,12 @@
             android:summary="@string/suppress_fullscreen_intent_summary"
             android:title="@string/suppress_fullscreen_intent_title" />
 
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="persist.plus.games_props"
+            android:title="@string/game_props_title"
+            android:summary="@string/game_props_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="gamespace_auto_brightness_disabled"
             android:summary="@string/auto_brightness_disabled_summary"
